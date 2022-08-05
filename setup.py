@@ -2,7 +2,7 @@ from setuptools import setup  # find_packages
 
 setup(
     name="py-hello-world",
-    version="0.0.13",
+    version="0.0.14",
     packages=[
         "hello_world",
         "hello_world.util",
@@ -14,5 +14,5 @@ setup(
             "py-hello-world-sub = hello_world.util.main_sub:say_hi",
         ]
     },
-    package_data={"hello_world": ["readme.md"]},
+    package_data={"hello_world": ["../readme.md"]},
 )
