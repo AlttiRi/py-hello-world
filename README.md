@@ -6,7 +6,7 @@ You can install it and run in console some commands (`py-hello-world`, `py-hello
 
 ### Installation
 
-_Node: [Python](https://www.python.org/downloads/) installed is required. Don't forget to check "Add to PATH" while installing._
+_Note: [Python](https://www.python.org/downloads/) installed is required. Don't forget to check "Add to PATH" while installing._
 
 ```bash
 pip install --upgrade --ignore-installed --no-deps --no-cache-dir https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
