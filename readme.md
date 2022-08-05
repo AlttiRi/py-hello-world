@@ -21,7 +21,6 @@ py-hello-world-sub
 ```
 
 
-
 ```bash
 pip uninstall py-hello-world
 ```
