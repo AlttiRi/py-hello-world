@@ -1,1 +1,1 @@
-print("[hello_world][__init__]")
+print("__init__", 1)

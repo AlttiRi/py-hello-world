@@ -1,4 +1,4 @@
-from hello_world.get_text import get_text
+from get_text import get_text
 
 
 def say_hi():
