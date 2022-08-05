@@ -2,8 +2,9 @@ from setuptools import setup
 
 setup(
     name="py-hello-world",
-    version="0.0.3",
+    version="0.0.4",
     packages=[
+        ".",
         "hello_world",
     ],
     entry_points={
