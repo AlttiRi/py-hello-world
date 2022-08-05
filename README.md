@@ -2,7 +2,7 @@
 
 It's a simple hello world example of an _installable_ Python application. 
 
-You can install it and run it console some commands (`py-hello-world`, `py-hello-world-i`, `py-hello-world-sub`).
+You can install it and run in console some commands (`py-hello-world`, `py-hello-world-i`, `py-hello-world-sub`).
 
 ### Installation
 
