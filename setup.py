@@ -2,7 +2,7 @@ from setuptools import setup  # find_packages
 
 setup(
     name="py-hello-world",
-    version="0.0.15",
+    version="0.0.16",
     packages=[
         "hello_world",
         "hello_world.util",
