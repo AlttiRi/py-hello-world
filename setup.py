@@ -3,6 +3,10 @@ from setuptools import setup
 setup(
     name="py-hello-world",
     version="0.0.1",
+    packages=[
+        ".",
+        "hello_world",
+    ],
     entry_points={
         "console_scripts": [
             "py-hello-world     = main:say_hi",
