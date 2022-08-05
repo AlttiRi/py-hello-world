@@ -1,7 +1,12 @@
-# 
+# py-hello-world
 
+It's a simple hello world example of an _installable_ Python application. 
+
+You can install it and run it console some commands (`py-hello-world`, `py-hello-world-i`, `py-hello-world-sub`).
 
 ### Installation
+
+_Node: [Python](https://www.python.org/downloads/) installed is required. Don't forget to check "Add to PATH" while installing._
 
 ```bash
 pip install --upgrade --ignore-installed --no-deps --no-cache-dir https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
