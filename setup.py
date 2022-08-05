@@ -2,8 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="py-hello-world",
-    version="0.0.7",
-    packages=find_packages(),
+    version="0.0.9",
+    packages=[
+        "hello_world",
+        "hello_world.util",
+    ],  # find_packages(),
     entry_points={
         "console_scripts": [
             "py-hello-world     = hello_world.main:say_hi",

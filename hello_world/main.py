@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from util.get_text import get_text
+from hello_world.util.get_text import get_text
 
 
 def say_hi():
