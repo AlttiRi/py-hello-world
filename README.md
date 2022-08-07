@@ -46,13 +46,22 @@ After installing you can run the follow scripts in a console in any place.
 py-hello-world
 ```
 ```bash
-py-hello-world-i
+py-hello-world-wi
 ```
 ```bash
 py-hello-world-sub
 ```
 
-
+The same, but with `-t`, `--trace` command line argument:
+```bash
+py-hello-world -t
+```
+```bash
+py-hello-world-wi --trace
+```
+```bash
+py-hello-world-sub --trace
+```
 
 ### UnInstallation
 ```bash
