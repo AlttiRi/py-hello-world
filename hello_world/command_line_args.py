@@ -9,6 +9,8 @@ parser.add_argument("-t", "--trace",
                     default=False,
                     help="Log package's and function's calls")
 args = parser.parse_args()
-# parser.print_help()
 
 trace = args.trace
+
+if __name__ == "__main__":
+    parser.print_help()
