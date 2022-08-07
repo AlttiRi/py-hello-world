@@ -1,8 +1,13 @@
 # py-hello-world
 
-It's a simple hello world example of an **_installable_** command line Python application. 
+It's a simple hello world example of an **_installable_** command line Python application.
 
 You can install it and run in console some commands (`py-hello-world`, `py-hello-world-i`, `py-hello-world-sub`).
+
+Also, it has optional command line argument `-t`/`--trace`. 
+With it the program logs package's and function's calls.
+It almost makes no sense, but it's only just an example usage of command line arguments.
+
 
 ### Installation
 
