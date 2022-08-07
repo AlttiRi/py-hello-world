@@ -4,7 +4,7 @@ from hello_world.sub.util import get_text
 
 def say_hi():
     if trace:
-        print("[trace]: sub.main_sub.py:say_hi()")
+        print("[trace]: sub.__main__sub.py:say_hi()")
     print(get_text())
 
 

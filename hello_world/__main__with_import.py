@@ -5,7 +5,7 @@ from hello_world.sub.util import get_text
 
 def say_hi():
     if trace:
-        print("[trace]: main_with_import.py:say_hi()")
+        print("[trace]: __main__with_import.py:say_hi()")
     print(get_text())
 
 

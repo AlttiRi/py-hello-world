@@ -4,7 +4,7 @@ from hello_world.command_line_args import trace
 
 def say_hi():
     if trace:
-        print("[trace]: main.py:say_hi()")
+        print("[trace]: __main__.py:say_hi()")
     print("Hello World!")
 
 
