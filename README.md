@@ -45,7 +45,7 @@ python setup.py develop
 
 ### Scripts
 
-After installing you can run the follow scripts in a console in any place.
+After installing, you can run the follow scripts in a console in any place.
 
 ```bash
 py-hello-world
