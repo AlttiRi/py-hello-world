@@ -7,6 +7,9 @@ setup(
         "hello_world",
         "hello_world.sub",
     ],  # find_packages(),
+    install_requires=[
+        "termcolor>=1.1.0",
+    ],
     entry_points={
         "console_scripts": [
             "py-hello-world     = hello_world.__main__:say_hi",

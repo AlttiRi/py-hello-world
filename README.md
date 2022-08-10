@@ -27,7 +27,7 @@ pip install git+https://github.com/AlttiRi/py-hello-world.git
 _Or_, a more complex example (check the [flags](https://pip.pypa.io/en/latest/cli/pip_install/?highlight=--no-use-wheel#options)):
 
 ```bash
-pip install --upgrade --ignore-installed --no-deps --no-cache-dir https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
+pip install --upgrade --ignore-installed --no-cache-dir https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
 ```
 
 
