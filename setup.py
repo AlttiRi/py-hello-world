@@ -1,8 +1,9 @@
 from setuptools import setup  # find_packages
+from hello_world.version import __version__
 
 setup(
     name="py-hello-world",
-    version="0.3.2",
+    version=__version__,
     packages=[
         "hello_world",
         "hello_world.sub",
