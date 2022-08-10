@@ -96,7 +96,7 @@ pip uninstall termcolor -y
 
 ---
 
-Also, it has "help" and "version":
+Also, it has `-h`, `--help` and `--version`:
 
 ```bash
 py-hello-world -h
