@@ -94,4 +94,13 @@ Uninstalling:
 pip uninstall termcolor -y
 ```
 
+---
 
+Also, it has "help":
+
+```bash
+py-hello-world -h
+```
+```bash
+py-hello-world --help
+```
