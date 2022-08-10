@@ -73,6 +73,13 @@ py-hello-world-sub --trace
 pip uninstall py-hello-world -y
 ```
 
+With dependencies:
+```bash
+pip uninstall py-hello-world termcolor -y
+```
+
+---
+
 ### Dependencies
 
 - [termcolor](https://pypi.org/project/termcolor/)
