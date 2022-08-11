@@ -40,7 +40,7 @@ Or, the alternative command with less verbose output:
 ```bash
 pip install -e .
 ```
-`-e` for ["editable" installing](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs).
+`-e` for ["editable"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) installing.
 
 ### Scripts
 
