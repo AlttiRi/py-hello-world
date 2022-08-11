@@ -38,9 +38,9 @@ python setup.py develop
 
 Or, the alternative command with the less verbose output:
 ```bash
-pip install -e .
+pip install --editable .
 ```
-`-e` for ["editable"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) installing.
+`-e`, `--editable` for ["editable"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) installing.
 
 ### Scripts
 
