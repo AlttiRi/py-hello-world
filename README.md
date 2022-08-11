@@ -24,10 +24,10 @@ _Or_, if you have also [Git](https://git-scm.com/downloads) installed:
 pip install git+https://github.com/AlttiRi/py-hello-world.git
 ```
 
-_Or_, a more complex example (check the [flags](https://pip.pypa.io/en/latest/cli/pip_install/?highlight=--no-use-wheel#options)):
-
+To instal a updated version (with changes in the repo's code), but which still has not updated version number, use [`--ignore-installed`](https://pip.pypa.io/en/latest/cli/pip_install/#options).
+For example:
 ```bash
-pip install --upgrade --ignore-installed --no-cache-dir https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
+pip install --ignore-installed --no-deps --no-cache-dir --upgrade https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
 ```
 
 
