@@ -24,7 +24,7 @@ _Or_, if you have also [Git](https://git-scm.com/downloads) installed:
 pip install git+https://github.com/AlttiRi/py-hello-world.git
 ```
 
-To instal a updated version (with changes in the repo's code), but which still has not updated version number, use [`--ignore-installed`](https://pip.pypa.io/en/latest/cli/pip_install/#options).
+To install a updated version (with changes in the repo's code), but which still has not updated version number, use [`--ignore-installed`](https://pip.pypa.io/en/latest/cli/pip_install/#options).
 For example:
 ```bash
 pip install --ignore-installed --no-deps --no-cache-dir --upgrade https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
