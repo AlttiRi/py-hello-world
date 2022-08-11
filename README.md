@@ -103,7 +103,7 @@ py-hello-world --version
 
 ---
 
-#### Updating
+### Updating
 
 Usually just use the same command as for installing.
 
