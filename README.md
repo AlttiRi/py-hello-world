@@ -27,7 +27,7 @@ pip install git+https://github.com/AlttiRi/py-hello-world.git
 To install a updated version (with changes in the repo's code), but which still has not updated version number, use [`--ignore-installed`](https://pip.pypa.io/en/latest/cli/pip_install/#options).
 For example:
 ```bash
-pip install --ignore-installed --no-deps --no-cache-dir --upgrade https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
+pip install --ignore-installed --no-deps https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
 ```
 
 
