@@ -24,13 +24,6 @@ _Or_, if you have also [Git](https://git-scm.com/downloads) installed:
 pip install git+https://github.com/AlttiRi/py-hello-world.git
 ```
 
-To install a updated version (with changes in the repo's code), but which still has not updated version number, use [`--ignore-installed`](https://pip.pypa.io/en/latest/cli/pip_install/#options).
-For example:
-```bash
-pip install --ignore-installed --no-deps https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
-```
-
-
 ### Dev Installation (from GH)
 ```bash
 git clone https://github.com/AlttiRi/py-hello-world.git
@@ -107,3 +100,17 @@ py-hello-world --help
 ```bash
 py-hello-world --version
 ```
+
+---
+
+#### Updating
+
+Usually just use the same command as for installing.
+
+To install a updated version (with changes in the repo's code), but _which still has not updated version number_, 
+use [`--ignore-installed`](https://pip.pypa.io/en/latest/cli/pip_install/#options).
+For example:
+```bash
+pip install --ignore-installed --no-deps https://github.com/AlttiRi/py-hello-world/archive/master.tar.gz
+```
+`--no-deps` in this case is recommended in order to do not re-install the dependecies.
