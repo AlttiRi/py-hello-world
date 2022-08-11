@@ -36,7 +36,7 @@ python setup.py develop
 python setup.py develop
 ```
 
-Or, the alternative command with less verbose output:
+Or, the alternative command with the less verbose output:
 ```bash
 pip install -e .
 ```
