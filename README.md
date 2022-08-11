@@ -36,6 +36,12 @@ python setup.py develop
 python setup.py develop
 ```
 
+Or, the alternative command with less verbose output:
+```bash
+pip install -e .
+```
+`-e` for ["editable" installing](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs).
+
 ### Scripts
 
 After installing, you can run the follow scripts in a console in any place.
