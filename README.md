@@ -11,8 +11,9 @@ It almost makes no sense, but it's only just an example usage of command line ar
 Also, it uses [termcolor](https://pypi.org/project/termcolor/) as a dependency to make this example more practical. 
 This extrernal lib just makes the console output colored.
 
-### Installation
+---
 
+### Installation
 
 _Note: [Python](https://www.python.org/downloads/) installed is required. Don't forget to check "Add to PATH" while installing._
 
@@ -44,6 +45,8 @@ pip install --editable .
 ```
 `-e`, `--editable` for ["editable"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) installing.
 
+---
+
 ### Scripts
 
 After installing, you can run the follow scripts in a console in any place.
@@ -69,6 +72,20 @@ py-hello-world-wi --trace
 py-hello-world-sub --trace
 ```
 
+Also, it has `-h`, `--help` and `--version`:
+
+```bash
+py-hello-world -h
+```
+```bash
+py-hello-world --help
+```
+```bash
+py-hello-world --version
+```
+
+---
+
 ### UnInstallation
 ```bash
 pip uninstall py-hello-world -y
@@ -93,20 +110,6 @@ pip install termcolor
 Uninstalling:
 ```bash
 pip uninstall termcolor -y
-```
-
----
-
-Also, it has `-h`, `--help` and `--version`:
-
-```bash
-py-hello-world -h
-```
-```bash
-py-hello-world --help
-```
-```bash
-py-hello-world --version
 ```
 
 ---
