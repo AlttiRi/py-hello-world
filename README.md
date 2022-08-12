@@ -84,6 +84,8 @@ py-hello-world --help
 py-hello-world --version
 ```
 
+Working with command line arguments is implemented using the [argparse](https://docs.python.org/3/library/argparse.html) module.
+
 ---
 
 ### UnInstallation
