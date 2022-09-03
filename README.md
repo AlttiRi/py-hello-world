@@ -9,7 +9,7 @@ With it the program logs package's and function's calls.
 It almost makes no sense, but it's only just an example usage of command line arguments.
 
 Also, it uses [termcolor](https://pypi.org/project/termcolor/) as a dependency to make this example more practical. 
-This extrernal lib just makes the console output colored.
+This external lib just makes the console output colored.
 
 ---
 
