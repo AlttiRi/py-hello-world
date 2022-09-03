@@ -1,0 +1,20 @@
+[tool.poetry]
+name        = "py-hello-world"
+version     = "0.5.0+2022.9.3"
+description = ""
+authors  = ["AlttiRi"]
+readme   = "README.md"
+packages = [{include = "hello_world"}]
+
+[tool.poetry.dependencies]
+python    = "^3.9"
+termcolor = "^1.1.0"
+
+[tool.poetry.scripts]
+py-hello-world     = "hello_world.__main__:say_hi"
+py-hello-world-wi  = "hello_world.__main__with_import:say_hi"
+py-hello-world-sub = "hello_world.sub.__main__sub:say_hi"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
